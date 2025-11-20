@@ -52,7 +52,7 @@ const SellingPlant = () => {
   return (
     <section className='min-h-screen px-6 py-16'>
         <div className='text-center text-3xl mb-20'>
-            <SectionTitle text1={'Our'} text2={'Top'} text3={'Selling'} text4={'Plant'}/>
+            <SectionTitle text1={'Our'} text2={'Top'} text3={'Selling Plants'}/>
         </div>
       
       {/* Grid --> GlassCard for Selling Plant's && Mapping Plants details with key  */}

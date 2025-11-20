@@ -9,7 +9,7 @@ const TrendyPlant = () => {
     <section className="min-h-screen max-w-7xl mx-auto mt-8 px-4 lg:px-0">
       {/* Title */}
       <div className="text-4xl font-semibold text-center">
-        <SectionTitle text1={"Our"} text2={"Trendy"} text3={"Plants"} />
+        <SectionTitle text1={"Our"} text2={"Trendy Plants"} />
       </div>
 
       {/* Trendy Section --> Card*/}

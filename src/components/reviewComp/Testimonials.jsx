@@ -21,14 +21,14 @@ const Testimonials = () => {
             clipped 
             className="h-full min-h-[330px] flex flex-col justify-start p-6">
             <div className="flex items-center gap-6 mb-5">
-              <img className="w-16 h-16 object-cover rounded-full" src={images.testimonial} alt="customer-1" />
+              <img className="w-16 h-16 object-cover rounded-full" src={images.testimonial} alt="customer_1" />
               <div>
                 <h3 className="font-semibold text-2xl text-white">Shelly Russel</h3>
                 <div className="text-yellow-400">★★★★<span className='text-yellow-200'>★</span></div>
               </div>
             </div>
-            <p className="font-normal text-xl text-white/90 leading-relaxed">
-              Just got my hands on some absolutely awesome plants, 
+            <p className="font-normal mt-6 text-xl text-white/90 leading-relaxed">
+              Just got my hands on some absolutely awesome plants,<br /> 
               and I couldn't be happier!
             </p>
           </GlassCard>
@@ -36,7 +36,7 @@ const Testimonials = () => {
     {/* Testimonial-2 ---> Card */}
           <GlassCard clipped className="h-full min-h-[330px] flex flex-col justify-start p-6">
             <div className="flex items-center gap-6 mb-5">
-              <img className="w-16 h-16 object-cover rounded-full" src={images.testimonial2} alt="customer-2" />
+              <img className="w-16 h-16 object-cover rounded-full" src={images.testimonial2} alt="customer_2" />
               <div>
                 <h3 className="font-semibold text-2xl text-white">Lula Rolfson</h3>
                 <div className="text-yellow-400">★★★★<span className='text-yellow-200'>★</span></div>
@@ -52,7 +52,7 @@ const Testimonials = () => {
     {/* Testimonial-3 ---> Card */}
           <GlassCard clipped className="h-full min-h-[330px] flex flex-col justify-start p-6">
             <div className="flex items-center gap-6 mb-5">
-              <img className="w-16 h-16 object-cover rounded-full" src={images.testimonial3} alt="customer-3" />
+              <img className="w-16 h-16 object-cover rounded-full" src={images.testimonial3} alt="customer_3" />
               <div>
                 <h3 className="font-semibold text-2xl text-white">Carol Huels</h3>
                 <div className="text-yellow-400">★★★★<span className='text-yellow-200'>★</span></div>
