@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+@import "tailwindcss";
+
+
+:root {
+    /* Font Families */
+    --font-primary: 'Inter', sans-serif;
+    --font-indie: 'Indie Flower', cursive;
+    
+    /* Base Colors */
+    --color-bg-dark: #1B2316;
+    --color-text-light: #f0f0f0;
+    --color-text-accent: #FFF84E;
+}
+
+body {
+    font-family: var(--font-primary);
+    color: var(--color-text-light);
+    background-color: var(--color-bg-dark);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, span {
+    font-family: var(--font-primary);
+}
+
+nav a {
+    font-family: var(--font-indie) ;
+}
+
+.text{
+    font-family: var(--font-indie) ;
+}

@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths" : {
+            "@/*": ["src/*"],
+            "@components": ["src/components"],
+            "@assets": ["src/assets"],
+            "@pages": ["src/pages"],
+        },
+        "moduleResolution": "node",
+        "ignoreDeprecations": "6.0",
+    },
+    "include": ["src/**/*"],
+
+}
