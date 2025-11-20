@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
       <div className="relative w-full min-h-screen bg-local bg-center bg-no-repeat" 
-      style={{backgroundImage: `url('src/assets/img/banner.jpg')`, 
+      style={{backgroundImage: `url('/assets/banner.jpg')`, 
              backgroundSize: window.innerWidth < 640 ? "cover" : "100% auto",
              backgroundPosition:window.innerWidth < 640 ? "center top" : "center -280px",}}>
         <div className="min-h-screen"> 
